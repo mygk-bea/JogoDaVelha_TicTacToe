@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://kit.fontawesome.com/9dabb0ed4f.js" crossorigin="anonymous"></script>
+    <title>Jogo da Velha | Tic Tac Toe</title>
+</head>
+<body>
+    <div class="modal">
+        <div class="close__modal"></div>
+        <div class="options">
+            <h3>Choose who starts</h3>
+            <div class="choose__character">
+                <input type="radio" id="selectX" name="plCharacter">
+                <label for="selectX" class="X">X</label>
+                <input type="radio" id="selectO" name="plCharacter">
+                <label for="selectO" class="O">O</label>
+            </div>
+
+            <input type="button" id="btnStart" value="Start Game">
+        </div>
+    </div>
+
+    <div class="turn">
+        <p class="player__turn"></p>
+    </div>
+
+    <div class="container">
+        <div class="scoreboard">
+            <div class="player">
+                <p class="x">X</p>
+                <p class="score score__x"></p>
+            </div>
+            <div class="player">
+                <p class="ties">TIES</p>
+                <p class="score score__ties"></p>
+            </div>
+            <div class="player">
+                <p class="o">O</p>
+                <p class="score score__o"></p>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="input__field">
+                <input type="button" id="input">
+            </div>
+            <div class="input__field">
+                <input type="button" id="input">
+            </div>
+            <div class="input__field">
+                <input type="button" id="input">
+            </div>
+            <div class="input__field">
+                <input type="button" id="input">
+            </div>
+            <div class="input__field">
+                <input type="button" id="input">
+            </div>
+            <div class="input__field">
+                <input type="button" id="input">
+            </div>
+            <div class="input__field">
+                <input type="button" id="input">
+            </div>
+            <div class="input__field">
+                <input type="button" id="input">
+            </div>
+            <div class="input__field">
+                <input type="button" id="input">
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="title">
+                    <span class="x">X</span>
+                    <span class="o">O</span>
+                    <span class="x">X</span>
+                    <span class="o">O</span>
+            </div>
+    
+            <div class="restart">
+                <a class="icon__restart">
+                    <i class="fas fa-redo-alt"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./JS/script.js"></script>
+<script src="./JS/scriptModal.js"></script>
+<script src="./JS/scriptResult.js"></script>
+<script src="./JS/scriptTurn.js"></script>
+</html>
