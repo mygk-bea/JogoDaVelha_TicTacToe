@@ -1,1 +1,3 @@
-# Jogo-da-Velha_Tic-Tac-Toe
+# Jogo da Velha
+
+Minigame de jogo da velha para web feito com JS.
