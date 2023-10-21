@@ -17,6 +17,6 @@ function turnUpdate() {
     turn.style.color = "#D71414";
   }
 
-  turn.innerHTML = `${player} <span>TURN</span>`;
+  turn.innerHTML = `<span>VEZ DO</span> ${player}`;
   return player;
 }
